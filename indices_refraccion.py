@@ -17,7 +17,7 @@ def long_de_onda_vs_indice_de_refraccion(archivo):
     return dic
     
 
-print(long_de_onda_vs_indice_de_refraccion("Adhesivos_Opticos\Iezzi.yml"))
+#print(long_de_onda_vs_indice_de_refraccion("Adhesivos_Opticos\Iezzi.yml"))
 
 def graficar_kapton():
     datos = long_de_onda_vs_indice_de_refraccion("Plásticos_Comerciales\French.yml")
