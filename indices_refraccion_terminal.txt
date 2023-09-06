@@ -1,0 +1,92 @@
+ls
+cd Taller_1/
+touch materiales.txt
+awk -F "," '{print $1}' indices_refraccion.csv > materiales.txt
+
+touch indices_refraccion_terminal.txt
+
+mkdir Vidrio
+cd Vidrio/
+touch archivos_yml.txt
+cd 
+cd OneDrive/Documentos/Universidad/Tercer_semestre/Métodos_computacionales/Tarea_1/FISI2526-MetCompCompl-202320/Taller_1
+awk -F "," '{if($1=="Vidrio")print $4}' indices_refraccion.csv > Vidrio/archivos_yml.txt
+cd Vidrio/
+wget -i archivos_yml.txt
+
+cd
+cd OneDrive/Documentos/Universidad/Tercer_semestre/Métodos_computacionales/Tarea_1/FISI2526-MetCompCompl-202320/Taller_1/
+mkdir Materia_Inorgánica
+cd Materia_Inorgánica
+touch archivos_yml.txt
+cd 
+cd OneDrive/Documentos/Universidad/Tercer_semestre/Métodos_computacionales/Tarea_1/FISI2526-MetCompCompl-202320/Taller_1
+awk -F "," '{if($1=="Materia Inorgánica")print $4}' indices_refraccion.csv > Materia_Inorgánica/archivos_yml.txt
+cd Materia_Inorgánica
+wget -i archivos_yml.txt
+
+cd
+cd OneDrive/Documentos/Universidad/Tercer_semestre/Métodos_computacionales/Tarea_1/FISI2526-MetCompCompl-202320/Taller_1/
+mkdir Materia_orgánica
+cd Materia_orgánica
+touch archivos_yml.txt
+cd 
+cd OneDrive/Documentos/Universidad/Tercer_semestre/Métodos_computacionales/Tarea_1/FISI2526-MetCompCompl-202320/Taller_1
+awk -F "," '{if($1=="Materia Orgánica")print $4}' indices_refraccion.csv > Materia_orgánica/archivos_yml.txt
+cd Materia_orgánica
+wget -i archivos_yml.txt
+
+cd
+cd OneDrive/Documentos/Universidad/Tercer_semestre/Métodos_computacionales/Tarea_1/FISI2526-MetCompCompl-202320/Taller_1/
+mkdir Plásticos_Comerciales
+cd Plásticos_Comerciales
+touch archivos_yml.txt
+cd 
+cd OneDrive/Documentos/Universidad/Tercer_semestre/Métodos_computacionales/Tarea_1/FISI2526-MetCompCompl-202320/Taller_1
+awk -F "," '{if($1=="Plásticos Comerciales")print $4}' indices_refraccion.csv > Plásticos_Comerciales/archivos_yml.txt
+cd Plásticos_Comerciales
+wget -i archivos_yml.txt
+
+cd
+cd OneDrive/Documentos/Universidad/Tercer_semestre/Métodos_computacionales/Tarea_1/FISI2526-MetCompCompl-202320/Taller_1/
+mkdir Exotico
+cd Exotico
+touch archivos_yml.txt
+cd 
+cd OneDrive/Documentos/Universidad/Tercer_semestre/Métodos_computacionales/Tarea_1/FISI2526-MetCompCompl-202320/Taller_1
+awk -F "," '{if($1=="Exotico")print $4}' indices_refraccion.csv > Exotico/archivos_yml.txt
+cd Exotico
+wget -i archivos_yml.txt
+
+cd
+cd OneDrive/Documentos/Universidad/Tercer_semestre/Métodos_computacionales/Tarea_1/FISI2526-MetCompCompl-202320/Taller_1/
+mkdir Combustible
+cd Combustible
+touch archivos_yml.txt}
+cd 
+cd OneDrive/Documentos/Universidad/Tercer_semestre/Métodos_computacionales/Tarea_1/FISI2526-MetCompCompl-202320/Taller_1
+awk -F "," '{if($1=="Combustible")print $4}' indices_refraccion.csv > Combustible/archivos_yml.txt}
+cd Combustible
+wget -i archivos_yml.txt}
+
+cd
+cd OneDrive/Documentos/Universidad/Tercer_semestre/Métodos_computacionales/Tarea_1/FISI2526-MetCompCompl-202320/Taller_1/
+mkdir Mezclas
+cd Mezclas
+touch archivos_yml.txt
+cd 
+cd OneDrive/Documentos/Universidad/Tercer_semestre/Métodos_computacionales/Tarea_1/FISI2526-MetCompCompl-202320/Taller_1
+awk -F "," '{if($1=="Mezclas")print $4}' indices_refraccion.csv > Mezclas/archivos_yml.txt
+cd Mezclas
+wget -i archivos_yml.txt
+
+cd
+cd OneDrive/Documentos/Universidad/Tercer_semestre/Métodos_computacionales/Tarea_1/FISI2526-MetCompCompl-202320/Taller_1/
+mkdir Adhesivos_Opticos
+cd Adhesivos_Opticos
+touch archivos_yml.txt
+cd 
+cd OneDrive/Documentos/Universidad/Tercer_semestre/Métodos_computacionales/Tarea_1/FISI2526-MetCompCompl-202320/Taller_1
+awk -F "," '{if($1=="Adhesivos Ópticos")print $4}' indices_refraccion.csv > Adhesivos_Opticos/archivos_yml.txt
+cd Adhesivos_Opticos
+wget -i archivos_yml.txt
